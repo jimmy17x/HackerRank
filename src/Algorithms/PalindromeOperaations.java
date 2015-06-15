@@ -1,11 +1,15 @@
+
+//https://www.hackerrank.com/challenges/the-love-letter-mystery/editorial
 package Algorithms;
 
 import java.util.Scanner;
+
 
 public class PalindromeOperaations {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
+		in.nextLine();
 
 		while (n-- > 0) {
 			String s = in.nextLine();
