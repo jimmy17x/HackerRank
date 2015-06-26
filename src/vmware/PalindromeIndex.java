@@ -1,10 +1,8 @@
 package vmware;
 
-import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
 
 public class PalindromeIndex {
 
