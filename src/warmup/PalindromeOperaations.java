@@ -1,6 +1,6 @@
 
 //https://www.hackerrank.com/challenges/the-love-letter-mystery/editorial
-package Algorithms;
+package warmup;
 
 import java.util.Scanner;
 

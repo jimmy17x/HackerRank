@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
-encoding//src/Algorithms/CaeserCipher.java=UTF-8
-encoding//src/Algorithms/LibraryFine.java=UTF-8
-encoding//src/Algorithms/StairCase.java=UTF-8
-encoding//src/Algorithms/tweleveTO24.java=UTF-8
 encoding//src/vmware/PalindromeIndex.java=UTF-8
+encoding//src/warmup/CaeserCipher.java=UTF-8
+encoding//src/warmup/LibraryFine.java=UTF-8
+encoding//src/warmup/StairCase.java=UTF-8
+encoding//src/warmup/TheTinmeInWords.java=UTF-8
+encoding//src/warmup/tweleveTO24.java=UTF-8
