@@ -12,33 +12,28 @@ public class reverseShuffleMerge {
 		Scanner in = new Scanner(System.in);
 
 		String s = in.nextLine();
-		ArrayList<Character> a = new ArrayList();
-		HashMap<Character, Integer> hm = new HashMap();
+		char[] arr = new char[26];
+		int[] num = new int[26];
+		
+		for (int i = 0; i < 26; ++i)
+			arr[i] = '0';
+		for (int i = 0; i < 26; ++i)
+			num[i] = 0;
 
 		for (int i = 0; i < s.length(); ++i) {
-			if (hm.containsKey(s.charAt(i)))
-				hm.put(s.charAt(i), (hm.get(s.charAt(i))) + 1);
-			else
-				hm.put(s.charAt(i), + 1);
+			++num[s.charAt(i) - 'a'];
+			arr[s.charAt(i) - 'a'] =s.charAt(i) ;
+			
 
 		}
 
-		for (Entry<Character, Integer> entry : hm.entrySet()) {
-
-			char key = entry.getKey();
-
-			int repeat = entry.getValue() / 2;
-			for (int i = 1; i <= repeat; ++i) {
-				a.add(key);
+		for (int i = 0; i < 26; ++i) {
+			if (num[i] != 0) {
+				int times = num[i] / 2;
+				while (times-- > 0)
+					System.out.print(arr[i]);
 			}
 		}
-
-		Collections.sort(a);
-
-		for (char c : a) {
-			System.out.print(c);
-		}
-
 	}
 
 }
